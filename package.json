@@ -1,0 +1,21 @@
+{
+  "name": "brainfucker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "build": "tsc",
+    "lint": "eslint src"
+  },
+  "keywords": [],
+  "author": "neolectron",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.30.0",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  }
+}
